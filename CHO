@@ -1,0 +1,6 @@
+#!/bin/bash
+cat text | while read line
+do
+echo $line
+touch $line;
+done
